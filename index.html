@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid hesapmakinesi">
+        <div class="row sonuc">
+            <input type="text" class="form-control hesapkutusu" id="hesap" readonly>
+            <input type="text" class="form-control sonuckutusu" id="hesap2">
+        </div>
+        <div class="row ilkbolum">
+            <div class="col-3 sutun">
+                <button class="tuslar hesaptus" id="toplatusu">+</button>
+                <button class="tuslar rakam" id="rakam-7">7</button>
+                <button class="tuslar rakam" id="rakam-4">4</button>
+                <button class="tuslar rakam" id="rakam-1">1</button>
+                <button class="tuslar rakam" id="rakam-0">0</button>
+            </div>
+            <div class="col-3 sutun">
+                <button class="tuslar hesaptus" id="cikartusu">-</button>
+                <button class="tuslar rakam" id="rakam-8">8</button>
+                <button class="tuslar rakam" id="rakam-5">5</button>
+                <button class="tuslar rakam" id="rakam-2">2</button>
+                <button class="tuslar" id="kusurattusu">,</button>
+            </div>
+            <div class="col-3 sutun">
+                <button class="tuslar hesaptus" id="carptusu">*</button>
+                <button class="tuslar rakam" id="rakam-9">9</button>
+                <button class="tuslar rakam" id="rakam-6">6</button>
+                <button class="tuslar rakam" id="rakam-3">3</button>
+                <button class="tuslar" id="temizletusu">C</button>
+            </div>
+            <div class="col-3 sutun">
+                <button class="tuslar hesaptus" id="boltusu">/</button>
+                <button class="esittir hesaptus" id="esittusu">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/hesap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

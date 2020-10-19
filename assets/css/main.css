@@ -1,0 +1,91 @@
+body {
+  background-color: #1b262c !important;
+}
+
+body .hesapmakinesi .sonuc .hesapkutusu {
+  height: 6.33vh;
+  font-size: 24px;
+  text-align: right;
+  border-radius: 0px;
+  border: none;
+  background-color: rgba(187, 225, 250, 0);
+  color: #bbe1fa98;
+}
+
+body .hesapmakinesi .sonuc .hesapkutusu:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .hesapmakinesi .sonuc .sonuckutusu {
+  border-radius: 0px;
+  border: none;
+  background-color: rgba(187, 225, 250, 0);
+  color: #bbe1fa;
+  height: 10.33vh;
+  font-size: 48px;
+  text-align: right;
+}
+
+body .hesapmakinesi .sonuc .sonuckutusu:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .hesapmakinesi .ilkbolum {
+  background-color: rgba(187, 225, 250, 0);
+}
+
+body .hesapmakinesi .ilkbolum .sutun {
+  padding: 0px;
+  overflow: hidden;
+}
+
+body .hesapmakinesi .ilkbolum .sutun .tuslar {
+  width: 25vw;
+  height: 16.66vh;
+  font-size: 42px;
+  border: 1px rgba(187, 225, 250, 0.1) solid;
+  outline: 0;
+  color: #bbe1fa;
+  background-color: rgba(187, 225, 250, 0);
+}
+
+body .hesapmakinesi .ilkbolum .sutun .tuslar:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: inset 0px 0px 300px 50px rgba(50, 130, 184, 0.1);
+          box-shadow: inset 0px 0px 300px 50px rgba(50, 130, 184, 0.1);
+}
+
+body .hesapmakinesi .ilkbolum .sutun .tuslar:active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  -webkit-box-shadow: inset 0px 0px 300px 50px rgba(15, 76, 117, 0.1);
+          box-shadow: inset 0px 0px 300px 50px rgba(15, 76, 117, 0.1);
+}
+
+body .hesapmakinesi .ilkbolum .sutun .esittir {
+  width: 25vw;
+  height: 66.66vh;
+  font-size: 48px;
+  border: 1px rgba(187, 225, 250, 0.1) solid;
+  outline: 0;
+  color: #bbe1fa;
+  background-color: rgba(187, 225, 250, 0);
+}
+
+body .hesapmakinesi .ilkbolum .sutun .esittir:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: inset 0px 0px 300px 50px rgba(50, 130, 184, 0.1);
+          box-shadow: inset 0px 0px 300px 50px rgba(50, 130, 184, 0.1);
+}
+
+body .hesapmakinesi .ilkbolum .sutun .esittir:active {
+  -webkit-transition: 0s;
+  transition: 0s;
+  -webkit-box-shadow: inset 0px 0px 300px 50px rgba(15, 76, 117, 0.1);
+          box-shadow: inset 0px 0px 300px 50px rgba(15, 76, 117, 0.1);
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+$beyaz:#bbe1fa;
+$koyumavi:#0f4c75;
+$mavi:#3282b8;
+$siyah:#1b262c;
+body{
+    background-color: $siyah!important;
+
+    .hesapmakinesi{
+        .sonuc{
+            .hesapkutusu{
+                height: 6.33vh;
+                font-size: 24px;
+                text-align: right;
+                border-radius: 0px;
+                border: none;
+                background-color: rgba($color:$beyaz, $alpha: 0);
+                color: #bbe1fa98;
+
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+            .sonuckutusu{
+                border-radius: 0px;
+                border: none;
+                background-color: rgba($color:$beyaz, $alpha: 0);
+                color: #bbe1fa;
+                height: 10.33vh;
+                font-size: 48px;
+                text-align: right;
+                
+
+                &:focus{
+                    box-shadow: none;
+
+                }
+
+
+            }
+        }
+
+        .ilkbolum{
+            background-color: rgba($color:$beyaz, $alpha: 0);
+            .sutun{
+
+                padding: 0px;
+                overflow: hidden;
+                .tuslar{
+                    
+                    width: 25vw;
+                    height: 16.66vh;
+                    font-size: 42px;
+                    border: 1px rgba($color:$beyaz, $alpha: 0.1) solid;
+                    outline: 0;
+                    color: $beyaz;
+                    background-color: rgba($color:$beyaz, $alpha: 0);
+                    
+                    &:hover{
+                        transition: 0.5s;
+                        box-shadow: inset 0px 0px 300px 50px rgba($color:$mavi, $alpha: 0.1);
+                        
+                    }
+                    &:active{
+                        transition: 0s;
+                        box-shadow: inset 0px 0px 300px 50px rgba($color:$koyumavi, $alpha: 0.1);
+                    }
+
+                }
+
+                .esittir{
+                    width: 25vw;
+                    height: 66.66vh;
+                    font-size: 48px;
+                    border: 1px rgba($color:$beyaz, $alpha: 0.1) solid;
+                    outline: 0;
+                    color: $beyaz;
+                    background-color: rgba($color:$beyaz, $alpha: 0);
+                      
+                    &:hover{
+                        transition: 0.5s; 
+                        box-shadow: inset 0px 0px 300px 50px rgba($color:$mavi, $alpha: 0.1);
+                    }
+                    &:active{
+                        transition: 0s;
+                        box-shadow: inset 0px 0px 300px 50px rgba($color:$koyumavi, $alpha: 0.1);
+                    }
+                }
+
+            }
+        }
+    }
+}

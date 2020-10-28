@@ -95,17 +95,12 @@ var yaz = function() {
     }
     else if (this.innerHTML==".") 
     {
-        if (sonuc.value.substring(sonuc.value.length - 1) !=".") 
+        if (sonuc.value.substring(sonuc.value.length - 1) !==".") 
         {
         sonuc.value += this.innerHTML;
         }
     }
-    else if (hesaplama.value.indexOF("=") !== -1)
-    {
-        hesaplama.value="";
-        sonuc.value="";
-        sonuc.value += this.innerHTML;
-    }
+
     else{
         sonuc.value += this.innerHTML;
     }
